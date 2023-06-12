@@ -4,7 +4,7 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile.alpine
-    image: zhayujie/chatgpt-on-wechat-voice-reply
+    image: ericwuuuuu/chatgpt-on-wechat-voice-reply
     container_name: chatgpt-on-wechat-voice-reply
     environment:
       OPEN_AI_API_KEY: 'YOUR API KEY'
